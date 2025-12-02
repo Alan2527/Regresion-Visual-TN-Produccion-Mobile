@@ -460,32 +460,32 @@ if __name__ == "__main__":
     
     # 1. MAPEO DE URLS A TESTEAR 
     BASE_URLS_MAP = {
-          "https://tn.com.ar/": "Homepage",
-          "https://tn.com.ar/ultimas-noticias/": "Listado",
-          "https://tn.com.ar/videos/": "Videos",
-          "https://tn.com.ar/envivo/24hs/": "Vivo",
-          "https://tn.com.ar/clima/": "Clima",
-          "https://tn.com.ar/economia/divisas/dolar-oficial-hoy/": "Divisas",
-          "https://tn.com.ar/podcasts/2025/05/14/soy-adoptada-una-identidad-dicha-con-orgullo/": "Podcast",
-          "https://tn.com.ar/deportes/estadisticas/": "Estadisticas",
-          "https://tn.com.ar/quinielas-loterias/": "Quinielas",
-          "https://tn.com.ar/juegos/": "Juegos",
-          "https://tn.com.ar/elecciones-2025/": "Elecciones",
+          #"https://tn.com.ar/": "Homepage",
+          #"https://tn.com.ar/ultimas-noticias/": "Listado",
+          #"https://tn.com.ar/videos/": "Videos",
+          #"https://tn.com.ar/envivo/24hs/": "Vivo",
+          #"https://tn.com.ar/clima/": "Clima",
+          #"https://tn.com.ar/economia/divisas/dolar-oficial-hoy/": "Divisas",
+          #"https://tn.com.ar/podcasts/2025/05/14/soy-adoptada-una-identidad-dicha-con-orgullo/": "Podcast",
+          #"https://tn.com.ar/deportes/estadisticas/": "Estadisticas",
+          #"https://tn.com.ar/quinielas-loterias/": "Quinielas",
+          #"https://tn.com.ar/juegos/": "Juegos",
+          #"https://tn.com.ar/elecciones-2025/": "Elecciones",
           # TIPOS DE NOTAS
           # Article
           "https://tn.com.ar/deportes/automovilismo/2025/11/07/el-posteo-que-williams-le-dedico-a-colapinto-despues-de-ser-confirmado-en-alpine-para-la-temporada-2026-de-f1/": "Article",
           # AMP
-          "https://tn.com.ar/economia/2025/11/11/el-secretario-del-tesoro-de-eeuu-confirmo-que-la-argentina-ya-utilizo-una-parte-del-swap-de-monedas/?outputType=amp": "AMP",
+          #"https://tn.com.ar/economia/2025/11/11/el-secretario-del-tesoro-de-eeuu-confirmo-que-la-argentina-ya-utilizo-una-parte-del-swap-de-monedas/?outputType=amp": "AMP",
           # Video
-          "https://tn.com.ar/videos/2025/11/03/romina-giangreco-la-estilista-de-famosas-que-tiene-su-marca-de-trajes-sustentables/": "Video",
+          #"https://tn.com.ar/videos/2025/11/03/romina-giangreco-la-estilista-de-famosas-que-tiene-su-marca-de-trajes-sustentables/": "Video",
           # Video Dark
-          "https://tn.com.ar/videos/policiales/2024/07/02/video-exclusivo-asi-llegaba-el-matrimonio-al-hospital-luego-de-que-la-mujer-sufriera-un-ataque-de-nervios/": "Video Dark",
+          #"https://tn.com.ar/videos/policiales/2024/07/02/video-exclusivo-asi-llegaba-el-matrimonio-al-hospital-luego-de-que-la-mujer-sufriera-un-ataque-de-nervios/": "Video Dark",
           # Longform c/fondo
-          "https://tn.com.ar/economia/2025/11/09/vivir-a-credito-crece-el-endeudamiento-cotidiano-y-hasta-el-40-del-sueldo-se-destina-a-pagar-la-tarjeta/": "Longform c/fondo",
+          #"https://tn.com.ar/economia/2025/11/09/vivir-a-credito-crece-el-endeudamiento-cotidiano-y-hasta-el-40-del-sueldo-se-destina-a-pagar-la-tarjeta/": "Longform c/fondo",
           # Longform s/fondo
-          "https://tn.com.ar/sociedad/2023/02/12/mapa-de-los-incendios-en-la-argentina-por-que-cada-verano-se-recrudece-el-fuego/": "Longform s/fondo",
+          #"https://tn.com.ar/sociedad/2023/02/12/mapa-de-los-incendios-en-la-argentina-por-que-cada-verano-se-recrudece-el-fuego/": "Longform s/fondo",
           # Liveblogging
-          "https://tn.com.ar/deportes/futbol/2025/11/07/franco-colapinto-corre-la-primera-practica-y-la-clasificacion-sprint-del-gp-de-brasil/": "Liveblogging",
+          #"https://tn.com.ar/deportes/futbol/2025/11/07/franco-colapinto-corre-la-primera-practica-y-la-clasificacion-sprint-del-gp-de-brasil/": "Liveblogging",
           # Newsletter
           # No hay ninguno a la fecha 13/11/2025
           # Historia
@@ -993,4 +993,5 @@ if __name__ == "__main__":
     print(f"📄 Reporte generado en: {html_file}")
 
     print(f"==================================================================================")
+
 
